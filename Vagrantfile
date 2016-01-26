@@ -1,5 +1,5 @@
 Vagrant.configure(2) do |config|
-  config.vm.box = 'ubuntu/trusty64'
+  config.vm.box = 'decomplect/gcrc-chef-workshop'
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
